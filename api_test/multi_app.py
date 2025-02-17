@@ -6,7 +6,7 @@ A = time.time()
 url_id = ['KH_pqxS5Qkc','ZoZ7eWAe0dg','Sz1YQ4_JZZw','1nzCPoTicDI']
 
 def croll_youtube(i):
-    api_key = 'AIzaSyBDLTQxXLU4SU0WDnj9f-BhrS7smGNngo8'
+    api_key = 'API키'
     video_id = i
     comments = list()
     api_obj = build('youtube', 'v3', developerKey=api_key)
